@@ -4,7 +4,6 @@ import gametable.components.CheckersComponent;
 import game.Game;
 import gametable.components.Checker;
 
-
 /**
  * <<Entity>> Si occupa della struttura base della damiera
  */
@@ -21,10 +20,10 @@ public class CheckersTable {
     protected static final int WHITE_CELLS_NUMBER = -1;
 
     // Displayed symbols of checkers
-    protected static final char SMALL_WHITE_CHECKER = '\u26c0';
-    protected static final char BIG_WHITE_CHECKER = '\u26c1';
-    protected static final char SMALL_BLACK_CHECKER = '\u26c2';
-    protected static final char BIG_BLACK_CHECKER = '\u26c3';
+    protected static final char SMALL_WHITE_CHECKER = 'b';
+    protected static final char BIG_WHITE_CHECKER = 'B';
+    protected static final char SMALL_BLACK_CHECKER = 'n';
+    protected static final char BIG_BLACK_CHECKER = 'N';
 
     // table including components cells and game cells
     private CheckersComponent[][] table;
